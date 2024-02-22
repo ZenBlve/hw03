@@ -23,15 +23,15 @@
  *  Converted 24-hour time notation from 12-hour
  *  Converted 12-hour time notation form 24-hour
  *  ******************************************************/
-std::string convertTo24Hour(std::string time12hour);
+std::string twelveToTwentyFourHour(std::string time12hour);
 
-std::string convertTo12Hour(std::string time24Hour);
+std::string twentyFourToTwelveHour(std::string time24Hour);
 
-std::string getTime24Hour();
+std::string getTimeTwentyFourHour();
 
-std::string getTime12Hour();
+std::string getTimeTwelveHour();
 
 void printConvertedTime(std::string time);
 
-void displayMenu();
+void showChoices();
 #endif

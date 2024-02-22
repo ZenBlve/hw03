@@ -4,17 +4,17 @@ int main() {
 	int choice;
 	std::string time;
 
-	displayMenu();
+	showChoices();
 	std::cin >> choice;
 
 	if (choice == 1 || choice == 2) {
 		if (choice == 1) {
-			time = getTime12Hour();
-			printConvertedTime(convertTo24Hour(time));
+			time = getTimeTwelveHour();
+			printConvertedTime(twelveToTwentyFourHour(time));
 		}
 		else {
-			time = getTime24Hour();
-			printConvertedTime(convertTo12Hour(time));
+			time = getTimeTwentyFourHour();
+			printConvertedTime(twentyFourToTwelveHour(time));
 		}
 	}
 	else {

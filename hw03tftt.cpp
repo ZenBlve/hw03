@@ -1,6 +1,6 @@
 #include "hw03.h"
 
-std::string convertTo12Hour(std::string time24Hour) {
+std::string twentyFourToTwelveHour(std::string time24Hour) {
 	int hours = std::stoi(time24Hour.substr(0, 2));
 	int minutes = std::stoi(time24Hour.substr(3, 2));
 	std::string am_pm;
