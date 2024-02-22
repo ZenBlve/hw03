@@ -3,7 +3,7 @@
 std::string convertTo24Hour(std::string time12Hour) {
 	int hours = std::stoi(time12Hour.substr(0, 2));
 	int minutes = std::stoi(time12Hour.substr(3, 2));
-	std::string am_pm = time12Hour.substr(6, 2);
+	std::string am_pm = time12Hour.substr(5, 2);
 
 	if (am_pm == "PM" && hours != 12)
 		hours +=12;
