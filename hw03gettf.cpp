@@ -1,3 +1,8 @@
 #include "hw03.h"
 
-std::string convertTo24Hour(std::string time12Hour);
+std::string getTime24Hour() {
+	std::string time;
+	std::cout << "Enter time in 24-hour notation: ";
+	std::cin >> time;
+	return time;
+}

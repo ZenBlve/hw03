@@ -31,5 +31,7 @@ std::string getTime24Hour();
 
 std::string getTime12Hour();
 
+void printConvertedTime(std::string time);
+
 void displayMenu();
 #endif
