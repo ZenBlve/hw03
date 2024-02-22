@@ -1,5 +1,5 @@
-#ifndef _H_
-#define _H_
+#ifndef HW03_H
+#define HW03_H_
 /**********************************************************
  * Christopher Rafanan	* CS1B TTh 7:30-9:50	* Assig 3 *
  * Conversion of 12-hour to/from 24-hour time notation	*
@@ -26,6 +26,10 @@
 std::string convertTo24Hour(std::string time12hour);
 
 std::string convertTo12Hour(std::string time24Hour);
+
+std::string getTime24Hour();
+
+std::string getTime12Hour();
 
 void displayMenu();
 #endif
