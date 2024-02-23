@@ -26,5 +26,5 @@ clean:
 	rm hw03 *.o
 
 tar:
-	tar cfv hw03.tar hw03.h hw03.cpp hw03tftt.cpp
-	hw03tttf.cpp hw03choices.cpp hw03gettf.cpp hw03gett.cpp hw03print.cpp hw03.scr
+	tar cf hw03.tar hw03.h hw03.cpp hw03tftt.cpp hw03choices.cpp hw03gettf.cpp hw03gett.cpp hw03print.cpp hw03tttf.cpp Makefile hw03.scr
+

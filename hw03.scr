@@ -1,0 +1,60 @@
+Script started on 2024-02-22 15:46:30-08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="50" LINES="34"]
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ m[Kdate
+[?2004lThu Feb 22 03:46:35 PM PST 2024
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ ls -l
+[?2004ltotal 36
+-rw-r--r-- 1 crafanan02 crafanan02  251 Feb 22 14:53 hw03choices.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  468 Feb 22 14:52 hw03.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  159 Feb 22 14:49 hw03gett.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  161 Feb 22 14:49 hw03gettf.cpp
+-rw-r--r-- 1 crafanan02 crafanan02 1092 Feb 22 14:52 hw03.h
+-rw-r--r-- 1 crafanan02 crafanan02  115 Feb 21 21:46 hw03print.cpp
+-rw-r--r-- 1 crafanan02 crafanan02    0 Feb 22 15:46 hw03.scr
+-rw-r--r-- 1 crafanan02 crafanan02  435 Feb 22 14:51 hw03tftt.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  424 Feb 22 14:51 hw03tttf.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  715 Feb 22 15:45 Makefile
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ make all
+[?2004lg++ -c hw03tftt.cpp -o hw03tftt.o
+g++ -c hw03tttf.cpp -o hw03tttf.o
+g++ -c hw03choices.cpp -o hw03choices.o
+g++ -c hw03gettf.cpp -o hw03gettf.o
+g++ -c hw03gett.cpp -o hw03gett.o
+g++ -c hw03print.cpp -o  hw03print.o
+g++     hw03.cpp hw03.h hw03tftt.o hw03tttf.o hw03choices.o hw03gettf.o hw03gett.o hw03print.o   -o hw03
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ ls -l
+[?2004ltotal 120
+-rwxr-xr-x 1 crafanan02 crafanan02 30784 Feb 22 15:46 [0m[01;32mhw03[0m
+-rw-r--r-- 1 crafanan02 crafanan02   251 Feb 22 14:53 hw03choices.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  2864 Feb 22 15:46 hw03choices.o
+-rw-r--r-- 1 crafanan02 crafanan02   468 Feb 22 14:52 hw03.cpp
+-rw-r--r-- 1 crafanan02 crafanan02   159 Feb 22 14:49 hw03gett.cpp
+-rw-r--r-- 1 crafanan02 crafanan02   161 Feb 22 14:49 hw03gettf.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  3600 Feb 22 15:46 hw03gettf.o
+-rw-r--r-- 1 crafanan02 crafanan02  3592 Feb 22 15:46 hw03gett.o
+-rw-r--r-- 1 crafanan02 crafanan02  1092 Feb 22 14:52 hw03.h
+-rw-r--r-- 1 crafanan02 crafanan02   115 Feb 21 21:46 hw03print.cpp
+-rw-r--r-- 1 crafanan02 crafanan02  2736 Feb 22 15:46 hw03print.o
+-rw-r--r-- 1 crafanan02 crafanan02     0 Feb 22 15:46 hw03.scr
+-rw-r--r-- 1 crafanan02 crafanan02   435 Feb 22 14:51 hw03tftt.cpp
+-rw-r--r-- 1 crafanan02 crafanan02 16808 Feb 22 15:46 hw03tftt.o
+-rw-r--r-- 1 crafanan02 crafanan02   424 Feb 22 14:51 hw03tttf.cpp
+-rw-r--r-- 1 crafanan02 crafanan02 16384 Feb 22 15:46 hw03tttf.o
+-rw-r--r-- 1 crafanan02 crafanan02   715 Feb 22 15:45 Makefile
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ ./hw03
+[?2004lTime Conversion Menu:
+1. Convert 12-hour to 24-hour time notation
+2. Convert 24-hour to 12-hour time notaiton
+Enter your choice (1 or 2): 1
+Enter time in a 12-hour notation: 02:45PM
+Converted time: 14:45
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ ./hw03
+[?2004lTime Conversion Menu:
+1. Convert 12-hour to 24-hour time notation
+2. Convert 24-hour to 12-hour time notaiton
+Enter your choice (1 or 2): 2
+Enter time in 24-hour notation: 19:02
+Converted time: 7:02 PM
+[?2004h]0;crafanan02@penguin: ~/hw03[01;32mcrafanan02@penguin[00m:[01;34m~/hw03[00m$ exit
+[?2004lexit
+
+Script done on 2024-02-22 15:47:22-08:00 [COMMAND_EXIT_CODE="0"]
